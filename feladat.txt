@@ -1,0 +1,30 @@
+BevProg 2022.01.20. Géptermi Vizsga
+
+1.feladat 
+
+A mellékelt beugro program kiegészítése, hogy minden pontot megadjon a program. A programban már adott szöveget nem szabad módosítani, kizárólag a kommentjelzést szabad eltávolítani a main() függvényb?l. Munka közben javasolt folyamatosan haladni ellenoriz() függvényenként a kommentezés eltávolításával. A beugró akkor érvényes, ha minden pontot megkaptál, és nincs semmilyen módosítás a main() függvényben és az ellenoriz() makróban, illetve tilos új #define leírása is. 
+
+Figyelem: beugró nélkül nem értékeljük a második feladatot! 
+
+2. feladat
+
+A tegnap a Microsoft felvásárolta a Activison Blizzard csoportot, aminek alkalmából az Activision kiadó játékainak listájával kapcsolatos érdekességeket kell a programnak megfejtenie. Az adatfájl minden sora egy kiadott játék adatait tartalmazza:
+; név ; évszám ; kategória ; platform(ok);
+példa:
+;Call of Duty;2003;Action;PlayStation3, Windows, Xbox360;
+
+A kategória és a platform tartalmazhat felsorolást, ilyenkor vessz?vel elválasztva vannak a tételek. Az adatok a Moby Games közösségi oldalról vannak amit akárki editálhat, ezért pontatlanságok és következetlenségek lehetnek az adatokban.
+
+Feladatok:
+
+a) Több játéknál nem csak az eredeti platformot sorolják fel, hanem az emulátor host platformját is. Ha tudjuk, 
+   hogy az Xbox360 2005-ben jelent meg, akkor a korábbi játékok platform listájában vélhet?en azért szerepelnek mert létezik emulátor 
+   a játékhoz, esetleg újra kiadás kés?bb. Hány ilyen van? (36) (megjegyzés: ebben a feladatban csak az Xbox360 platform a feltétel, a kategória mindegy) 
+b) Sorold fel a platformokat abban a sorrendben ahány játékot arra kiadtak. Azoknál a játékoknál ahol felsorolás 
+   van a platformnál azok minden említett platformon külön megjelenésnek számítanak ebben.
+   (Windows: 599, Xbox360:538, PlayStation3:473 ...)
+c) A játékok nevében gyakran kett?spontot használnak egy sorozat azonosítására. Ha feltesszük hogy a játék neve a sorozat nevével és a kett?sponttal kezd?dik, akkor melyik az a sorozat amelyikb?l a legtöbb játékot adták ki és hányat? (Call of Duty, 69) (megjegyzés: ha 263 jön ki, akkor fontos, hogy játék, és nem DLC kategóriás tétel)
+
+Pontozás:
+
+Az irányadó pontozási forma a következ?: max 10 pont a sikeres beugró, az a) b) c) feladatok m?ködése 10-10-10 pont, a második feladatban használt függvények eleganciája 10 pontig, a rekordok értelmes tervezése szintén 10 pontig értékelhet?, de összesen nem lehet több, mint az a) b) c) m?ködésre adott pontok összege - nem lehet nem m?köd? programra pontot kapni, csak mert szép. 
